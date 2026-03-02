@@ -124,3 +124,60 @@ a {
 .swiper-button-prev::after {
   font-size: 18px;
 }
+
+.gallery-page {
+  max-width: 1100px;
+  margin: 120px auto;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 80px;
+}
+
+.gallery-item {
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-item span {
+  display: block;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.gallery-item:hover img {
+  opacity: 0.85;
+}
+
+.video-page {
+  max-width: 1100px;
+  margin: 120px auto;
+  text-align: center;
+}
+
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.video-wrapper video {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  background: #000;
+}
+
+.video-caption {
+  margin-top: 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  opacity: 0.7;
+}
