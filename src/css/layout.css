@@ -1,0 +1,77 @@
+/* NAV */
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+.navbar .buttons {
+  display: flex;
+  gap: 60px;
+}
+
+.navbar .buttons a {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  transition: opacity 0.2s ease;
+}
+
+.navbar .buttons a:hover {
+  opacity: 0.6;
+}
+
+.navbar .buttons a:visited {
+  color: #222;
+}
+
+
+/* MAIN STRUCTURE */
+
+main {
+  max-width: 680px;
+  margin: 140px auto;
+}
+
+main h1 {
+  font-size: 72px;
+  font-weight: 300;
+  margin-bottom: 80px;
+  letter-spacing: 1px;
+}
+
+main p {
+  font-size: 20px;
+  line-height: 2;
+  color: #444;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 20px;
+  }
+
+  .navbar .buttons {
+    gap: 20px;
+  }
+
+  main {
+    margin: 100px 20px;
+  }
+
+  main h1 {
+    font-size: 42px;
+    margin-bottom: 40px;
+  }
+
+  main p {
+    font-size: 18px;
+  }
+}
