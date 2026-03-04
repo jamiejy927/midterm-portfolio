@@ -24,24 +24,37 @@
     </nav>
 
     <main class="book-page">
-
-        <!-- <div class="book-header">
-            <p class="book-type">Photobook</p>
-        </div> -->
-
         <div class="book-gallery">
             <img src="images/fashion/fashion3.jpg" alt="">
             <img src="images/fashion/fashion4.jpg" alt="">
             <img src="images/fashion/fashion5.jpg" alt="">
             <img src="images/fashion/fashion6.jpg" alt="">
-            <!-- <img src="images/fashion/fashion7.jpg" alt=""> -->
             <img src="images/fashion/fashion9.jpg" alt="">
             <img src="images/fashion/fashion10.jpg" alt="">
             <img src="images/fashion/fashion8.jpg" alt="">
         </div>
-
     </main>
 
+    <button id="topBtn">↑</button>
+
+    <script>
+        const topBtn = document.getElementById("topBtn");
+
+        window.addEventListener("scroll", () => {
+        if (window.scrollY > 300) {
+            topBtn.classList.add("show");
+        } else {
+            topBtn.classList.remove("show");
+        }
+        });
+
+        topBtn.addEventListener("click", () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+        });
+    </script>
 
 </body>
 </html>

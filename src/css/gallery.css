@@ -125,6 +125,45 @@
   display: block;
 }
 
+/* SCROLL TO TOP */
+
+#topBtn {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+
+  width: 42px;
+  height: 42px;
+
+  border-radius: 50%;
+  border: 1px solid #333;
+
+  background: transparent;
+  color: #333;
+
+  font-size: 20px;
+  line-height: 38px;
+  text-align: center;
+
+  cursor: pointer;
+
+  opacity: 0;
+  transform: translateY(10px);
+
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+#topBtn.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+#topBtn:hover {
+  transform: translateY(-2px) scale(1.08);
+}
+
 /* VIDEO */
 
 .video-page {
