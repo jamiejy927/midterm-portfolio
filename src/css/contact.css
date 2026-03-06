@@ -39,3 +39,15 @@
 .contact-item:hover::after {
   width: 48%;
 }
+
+@media (max-width: 768px) {
+
+  .contact-page {
+    margin: 80px 20px;
+  }
+
+  .contact-item {
+    font-size: 20px;
+  }
+
+}

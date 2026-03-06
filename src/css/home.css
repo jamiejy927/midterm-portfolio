@@ -11,3 +11,15 @@
   height: auto;
   display: block;
 }
+
+@media (max-width: 768px) {
+
+  .home-page {
+    margin: 20px 20px;
+  }
+
+  .home-image img {
+    max-width: 100%;
+  }
+
+}
