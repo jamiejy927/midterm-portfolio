@@ -1,0 +1,75 @@
+.experience-page{
+max-width:720px;
+margin:20px auto 50px;
+}
+
+.experience-section{
+padding-bottom:16px;
+margin-bottom:24px;
+border-bottom:1px solid #eee;
+}
+
+.experience-section:last-child{
+border-bottom:none;
+}
+
+.experience-section h2{
+font-size:26px;
+margin-top:0;
+margin-bottom:16px;
+letter-spacing:0.5px;
+}
+
+.job h3,
+.project h3,
+.education h3{
+font-size:20px;
+margin-bottom:4px;
+}
+
+.meta{
+font-size:16px;
+color:#666;
+margin-bottom:12px;
+}
+
+.job ul{
+padding-left:18px;
+line-height:1.6;
+margin-bottom:20px;
+}
+
+.project{
+margin-bottom:24px;
+}
+
+.project p{
+margin:6px 0;
+}
+
+.project-header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.project-links{
+margin:0;
+}
+
+.project-links a{
+text-decoration:none;
+border-bottom:1px solid transparent;
+transition:0.2s;
+}
+
+.project-links a:hover{
+border-bottom:1px solid #333;
+opacity:0.7;
+}
+
+.tech{
+font-size:14px;
+color:#888;
+margin-top:2px;
+}

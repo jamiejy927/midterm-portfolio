@@ -16,10 +16,19 @@
   font-weight: 400;
   letter-spacing: 1px;
   transition: opacity 0.2s ease;
+
+  border-bottom: 1px solid transparent;
+  padding-bottom: 4px;
 }
 
 .navbar .buttons a:hover {
   opacity: 0.6;
+  border-bottom: 1px solid #222;
+}
+
+/* 현재 페이지 표시 */
+.navbar .buttons a.active {
+  border-bottom: 1px solid #222;
 }
 
 .navbar .buttons a:visited {
