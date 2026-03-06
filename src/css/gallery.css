@@ -245,7 +245,7 @@ height: auto;
   }
 
   .thumb::after {
-    font-size: 64px;
+    display: none;
   }
 
   .swiper-button-prev,
