@@ -36,7 +36,7 @@
 
 /* SWIPER */
 
-.swiper {
+/* .swiper {
   width: 100%;
   max-width: 900px;
   margin: 20px auto;
@@ -79,11 +79,11 @@
 :root {
   --swiper-navigation-color: #333;
   --swiper-navigation-size: 18px;
-}
+} */
 
 /* GALLERY */
 
-.gallery-page {
+/* .gallery-page {
   max-width: 1100px;
   margin: 40px auto 60px auto;
 }
@@ -137,11 +137,11 @@
 
 .hideout-thumb {
   object-position: center 20%;
-}
+} */
 
 /* PHOTOBOOK */
 
-.book-page {
+/* .book-page {
   max-width: 950px;
   margin: 30px auto 120px auto;
 }
@@ -167,11 +167,11 @@
   width: 100%;
   height: auto;
   display: block;
-}
+} */
 
 /* SCROLL TO TOP */
 
-#topBtn {
+/* #topBtn {
   position: fixed;
   bottom: 50px;
   right: 50px;
@@ -206,11 +206,11 @@
 
 #topBtn:hover {
   transform: translateY(-2px) scale(1.08);
-}
+} */
 
 /* VIDEO */
 
-.video-page {
+/* .video-page {
   max-width: 1100px;
   margin: 120px auto;
   text-align: center;
@@ -253,7 +253,7 @@
   color: white;
   opacity: 0.85;
   pointer-events: none;
-}
+} */
 
 /* MOBILE */
 
